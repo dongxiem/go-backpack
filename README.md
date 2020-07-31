@@ -1,2 +1,2 @@
-# carrotNote
-这是一个关于Golang学习过程中一些相对应的例子的收集，方便快速了解相对应的知识模块，构建完整的Golang语言知识体系
+# go-package
+关于Golang知识模块整理，方便构建完整的Golang语言知识体系
