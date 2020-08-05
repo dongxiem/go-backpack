@@ -12,8 +12,9 @@ func helloHandler2(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	mux := http.NewServeMux()
-
+	// 输入地址为：http://localhost:8080/
 	mux.Handle("/", &myHandle2{})
+	// 输入地址为：http://localhost:8080/hello
 	mux.HandleFunc("/hello", helloHandler2)
 
 	log.Println("Start server and listen on 8080")
